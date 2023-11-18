@@ -1,3 +1,9 @@
+PATH
+  remote: engines/dashboard
+  specs:
+    dashboard (0.1.0)
+      rails (>= 7.0.7.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -228,6 +234,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   capybara
+  dashboard!
   debug
   importmap-rails
   jbuilder
