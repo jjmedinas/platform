@@ -1,3 +1,3 @@
 Dashboard::Engine.routes.draw do
-  root 'testing#index'
+  root 'home_test#index'
 end
